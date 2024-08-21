@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --slate-black: #15141a;
+}
+
+body {
+  background-color: var(--slate-black);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
